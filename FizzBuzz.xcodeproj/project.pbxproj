@@ -12,8 +12,13 @@
 		2B1DC79D2107556D00777BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1DC79B2107556D00777BFB /* Main.storyboard */; };
 		2B1DC79F2107556D00777BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1DC79E2107556D00777BFB /* Assets.xcassets */; };
 		2B1DC7A22107556D00777BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1DC7A02107556D00777BFB /* LaunchScreen.storyboard */; };
-		2B1DC7AD2107556D00777BFB /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DC7AC2107556D00777BFB /* FizzBuzzTests.swift */; };
-		2B1DC7B82107556D00777BFB /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DC7B72107556D00777BFB /* FizzBuzzUITests.swift */; };
+		2B1DC7C8210757D100777BFB /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DC7C7210757D100777BFB /* BrainTests.swift */; };
+		2B1DC7CA2107592600777BFB /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DC7C92107592600777BFB /* Brain.swift */; };
+		2B1DC7CC2107666000777BFB /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DC7CB2107666000777BFB /* GameTests.swift */; };
+		2B1DC7CE210766B900777BFB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DC7CD210766B900777BFB /* Game.swift */; };
+		2B1DC7D02108485900777BFB /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DC7CF2108485900777BFB /* ViewControllerUnitTests.swift */; };
+		2B1DC7D2210857D400777BFB /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DC7D1210857D400777BFB /* ViewControllerUITests.swift */; };
+		2B1DC7D421094E4200777BFB /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DC7D321094E4200777BFB /* Move.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +47,16 @@
 		2B1DC7A12107556D00777BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B1DC7A32107556D00777BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B1DC7A82107556D00777BFB /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B1DC7AC2107556D00777BFB /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
 		2B1DC7AE2107556D00777BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B1DC7B32107556D00777BFB /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B1DC7B72107556D00777BFB /* FizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITests.swift; sourceTree = "<group>"; };
 		2B1DC7B92107556D00777BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1DC7C7210757D100777BFB /* BrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTests.swift; sourceTree = "<group>"; };
+		2B1DC7C92107592600777BFB /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		2B1DC7CB2107666000777BFB /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		2B1DC7CD210766B900777BFB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2B1DC7CF2108485900777BFB /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
+		2B1DC7D1210857D400777BFB /* ViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUITests.swift; sourceTree = "<group>"; };
+		2B1DC7D321094E4200777BFB /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,15 @@
 		2B1DC7962107556D00777BFB /* FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				2B1DC7CD210766B900777BFB /* Game.swift */,
 				2B1DC7972107556D00777BFB /* AppDelegate.swift */,
 				2B1DC7992107556D00777BFB /* ViewController.swift */,
+				2B1DC7D321094E4200777BFB /* Move.swift */,
 				2B1DC79B2107556D00777BFB /* Main.storyboard */,
 				2B1DC79E2107556D00777BFB /* Assets.xcassets */,
 				2B1DC7A02107556D00777BFB /* LaunchScreen.storyboard */,
 				2B1DC7A32107556D00777BFB /* Info.plist */,
+				2B1DC7C92107592600777BFB /* Brain.swift */,
 			);
 			path = FizzBuzz;
 			sourceTree = "<group>";
@@ -110,8 +123,10 @@
 		2B1DC7AB2107556D00777BFB /* FizzBuzzTests */ = {
 			isa = PBXGroup;
 			children = (
-				2B1DC7AC2107556D00777BFB /* FizzBuzzTests.swift */,
+				2B1DC7CF2108485900777BFB /* ViewControllerUnitTests.swift */,
+				2B1DC7CB2107666000777BFB /* GameTests.swift */,
 				2B1DC7AE2107556D00777BFB /* Info.plist */,
+				2B1DC7C7210757D100777BFB /* BrainTests.swift */,
 			);
 			path = FizzBuzzTests;
 			sourceTree = "<group>";
@@ -119,7 +134,7 @@
 		2B1DC7B62107556D00777BFB /* FizzBuzzUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2B1DC7B72107556D00777BFB /* FizzBuzzUITests.swift */,
+				2B1DC7D1210857D400777BFB /* ViewControllerUITests.swift */,
 				2B1DC7B92107556D00777BFB /* Info.plist */,
 			);
 			path = FizzBuzzUITests;
@@ -188,7 +203,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = JakeMobileDev;
 				TargetAttributes = {
 					2B1DC7932107556D00777BFB = {
@@ -197,11 +212,13 @@
 					};
 					2B1DC7A72107556D00777BFB = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2B1DC7932107556D00777BFB;
 					};
 					2B1DC7B22107556D00777BFB = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2B1DC7932107556D00777BFB;
 					};
@@ -260,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B1DC79A2107556D00777BFB /* ViewController.swift in Sources */,
+				2B1DC7D421094E4200777BFB /* Move.swift in Sources */,
+				2B1DC7CA2107592600777BFB /* Brain.swift in Sources */,
 				2B1DC7982107556D00777BFB /* AppDelegate.swift in Sources */,
+				2B1DC7CE210766B900777BFB /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1DC7AD2107556D00777BFB /* FizzBuzzTests.swift in Sources */,
+				2B1DC7C8210757D100777BFB /* BrainTests.swift in Sources */,
+				2B1DC7CC2107666000777BFB /* GameTests.swift in Sources */,
+				2B1DC7D02108485900777BFB /* ViewControllerUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1DC7B82107556D00777BFB /* FizzBuzzUITests.swift in Sources */,
+				2B1DC7D2210857D400777BFB /* ViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +351,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +359,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -369,6 +393,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -386,6 +411,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +419,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -418,6 +445,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -457,12 +485,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4L75R28P26;
 				INFOPLIST_FILE = FizzBuzzTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JakeMobileDev.FizzBuzzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzBuzz.app/FizzBuzz";
@@ -474,6 +504,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4L75R28P26;
 				INFOPLIST_FILE = FizzBuzzTests/Info.plist;
@@ -490,12 +521,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4L75R28P26;
 				INFOPLIST_FILE = FizzBuzzUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JakeMobileDev.FizzBuzzUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FizzBuzz;
@@ -506,6 +539,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4L75R28P26;
 				INFOPLIST_FILE = FizzBuzzUITests/Info.plist;
